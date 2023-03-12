@@ -14,7 +14,7 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <Link to={"https://github.com/walid-tab"}><GitHubIcon /></Link>
+      <Link to={project.url}><GitHubIcon /></Link>
       
     </div>
   );
