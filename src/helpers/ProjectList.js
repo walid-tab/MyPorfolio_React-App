@@ -4,12 +4,17 @@ import Proj3 from "../assets/Proj3.png";
 import Proj4 from "../assets/Proj4.png";
 import Proj5 from "../assets/Proj5.png";
 import Proj6 from "../assets/Proj6.png";
-import { postUrl1 } from "./ListUrlProjects";
-import { postUrl2 } from "./ListUrlProjects";
-import { postUrl3 } from "./ListUrlProjects";
-import { postUrl4 } from "./ListUrlProjects";
-import { postUrl5 } from "./ListUrlProjects";
-import { postUrl6 } from "./ListUrlProjects";
+import Proj7 from "../assets/Proj7.png";
+
+import {
+  postUrl1,
+  postUrl2,
+  postUrl3,
+  postUrl4,
+  postUrl5,
+  postUrl6,
+  postUrl7,
+} from "./ListUrlProjects";
 
 export const ProjectList = [
   {
@@ -47,5 +52,11 @@ export const ProjectList = [
     image: Proj6,
     skills: "React.js, Node.js, Express.js, MongoDB, Redux, axios",
     url: postUrl6,
+  },
+  {
+    name: "CRUD List Users App",
+    image: Proj7,
+    skills: "React.js, NestJs, MongoDB, Context-API, Chakra UI",
+    url: postUrl7,
   },
 ];

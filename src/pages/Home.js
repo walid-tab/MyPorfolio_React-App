@@ -24,13 +24,13 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, VueJS, Redux, HTML, CSS, NPM, BootStrap, MaterialUI,
+              ReactJS, VueJS, Redux, HTML, CSS, NPM, BootStrap, MaterialUI, Chakra UI
               TailwindCSS, StyledComponents
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>NodeJS, ExpressJS, MySQL, MongoDB, Firebase</span>
+            <span>NodeJS, ExpressJS, NestJS, MySQL, MongoDB, Firebase</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
@@ -46,6 +46,9 @@ function Home() {
           </li>
           <li className="item">
             <h2>SEO</h2>
+          </li>
+          <li className="item">
+            <h2>WordPress - Elementor</h2>
           </li>
         </ol>
       </div>
